@@ -28,7 +28,7 @@
                 <h2 class="nombre">Bea Couchoud</h2>
                 <h1 class="profesion">Web developer</h1>
                 <div class="container2">
-                     <img class="foto" src="img/perfil.jfif" alt="">
+                     <img class="foto" src="img/perfil.jpeg" alt="">
                 </div>
             </div>
         </div>
@@ -50,13 +50,19 @@
             <h2 class="subtitulo" id="descripcion">Sobre mi</h2>
             <div class=container4>
                 <div class="rrss">
-                    <img src="img/icon_email.png" alt="">
+                    <a href=" mailto:beacouchoud@email.com" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icon_email.png" alt=""> 
+                    </a>
                 </div>
                 <div class="rrss">
+                    <a href="https://github.com/Beacouchoud?tab=repositories" target="_blank" rel="noopener noreferrer">
                         <img id="git" src="img/icon_github.png" alt="">
+                    </a>
                 </div>
                 <div class="rrss">
-                    <img src="img/icon_tlf.png" alt="">
+                    <a href="tel: +34 652360120" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icon_tlf.png" alt="">
+                    </a>
                 </div>
             </div>
             <article>
@@ -84,29 +90,50 @@
             <h2 class="subtitulo" id="curriculum">Currículum</h2>
             <div class="container5">
                 <div class="button" >
-                    <P id="prev">VISTA PREVIA</P>
+                    <a class="enlace" href="pdf/Curriculum.pdf" target="_blank">
+                        <P id="prev">VISTA PREVIA</P> 
+                    </a>
                 </div>
                 <div class="button">
-                    <P id="download">DESCARGAR</P>
+                    <a class="enlace" href="pdf/Curriculum.pdf" download>
+                        <P id="download">DESCARGAR</P> 
+                    </a>
                 </div>
             </div>
             <div class="container6">
                 <caption> <p> Videocurrículum </p> </caption> 
-                <embed class="video" src="" type=""><embed/><!--TODO: Añadir video -->
+                <video class="video" src="video/Videocurriculum.mp4" type="video/mp4" controls><video/><!--TODO: Añadir video -->
             </div>
         </section>
         <section>
             <h2 class="subtitulo" id="carta">Carta de presentación</h2>
-            <iframe src="pdf/CartaPresentacion.pdf" frameborder="0"></iframe>
+            <object data="pdf/CartaPresentacion.pdf" type=""></object>
         </section>
     </main>
-    <hr>
-    <footer>
-        <address>
-            Autor: Bea Couchoud <br>
-            Email: beacouchoud@gmail.com <br>
-            Última modificación: 11 nov. 2018 <br>
+   
+    <footer>   
+        <address class="container7">
+                Autor: Bea Couchoud <br>
+                Email: beacouchoud@gmail.com <br>
+                Última modificación: 11 nov. 2018 <br>
         </address>
+        <div class=container7>
+            <div class="rrss_f">
+                <a href=" mailto:beacouchoud@email.com" target="_blank" rel="noopener noreferrer">
+                    <img src="img/icon_email.png" alt=""> 
+                </a>
+            </div>
+            <div class="rrss_f">
+                <a href="https://github.com/Beacouchoud?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <img id="git" src="img/icon_github.png" alt="">
+                </a>
+            </div>
+            <div class="rrss_f">
+                <a href="tel: +34 652360120" target="_blank" rel="noopener noreferrer">
+                    <img src="img/icon_tlf.png" alt="">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
